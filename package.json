@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node index.js install -g",
-    "preuninstall": "node index.js uninstall -g"
+    "postinstall": "node index.js install",
+    "preuninstall": "node index.js uninstall"
   },
   "goBinary": {
     "name": "cicd-template",
