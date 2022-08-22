@@ -18,7 +18,9 @@ jobs:
         with:
           node-version: 16
       - run: echo $PATH
-      - run: npm i && npx cicd-template --version
+      - run: npm i
+      - run: ls /opt/hostedtoolcache/node/16.16.0/x64/bin
+      - run: npx cicd-template --version
 
 
 
